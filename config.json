@@ -1,0 +1,16 @@
+{
+  "defaults": {
+    "seeds": [2024, 2025, 2026, 2027, 2028],
+    "device": "cuda",
+    "epochs": 300,
+    "train_batch": 512,
+    "eval_batch": 512,
+    "cutoffs": [5, 10, 20],
+    "lr": 0.01,
+    "dim": 64,
+    "p": 3,
+    "gumbel_scale": 0.2,
+    "mc_samples": 32,
+    "mc_chunk": 4
+  }
+}
