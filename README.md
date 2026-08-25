@@ -144,7 +144,7 @@ Values are reported in seconds.
 
 | Dataset | MF | LightGCN | XSimGCL |
 |:---|---:|---:|---:|
-| Beauty | 172.48 | 163.0 | 187.5 |
+| Beauty | 172.5 | 163.0 | 187.5 |
 | VideoGames | 307.3 | 341.1 | 369.8 |
 | Gowalla | 931.4 | 979.4 | 1143.5 |
 | Pinterest | 869.5 | 1172.3 | 1211.3 |
