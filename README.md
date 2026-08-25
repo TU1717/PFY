@@ -135,3 +135,16 @@ python -m unittest discover -s tests -v
 
 The tests cover the hard Top-P objective, its gradient under fixed noise,
 positive-set sampling, split checks, metric calculations, and a small CPU run.
+
+
+### Runtime Analysis
+
+Average wall-clock training time per run of PFY-P5 on an NVIDIA GeForce RTX 4090.
+Values are reported in seconds.
+
+| Dataset | MF | LightGCN | XSimGCL |
+|:---|---:|---:|---:|
+| Beauty | 172.48 | 163.0 | 187.5 |
+| VideoGames | 307.3 | 341.1 | 369.8 |
+| Gowalla | 931.4 | 979.4 | 1143.5 |
+| Pinterest | 869.5 | 1172.3 | 1211.3 |
